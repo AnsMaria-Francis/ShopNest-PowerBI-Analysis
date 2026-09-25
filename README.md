@@ -83,4 +83,7 @@ The Power BI report includes slicers and interactive analysis using dimensions s
 
 The Power BI `.pbix` file is available upon request.
 
+## Dashboard Preview
+
+![ShopNest Power BI Dashboard](shopnest-dashboard.png)
 Screenshots of selected dashboard pages are included in this repository to demonstrate the analysis and visualizations.
