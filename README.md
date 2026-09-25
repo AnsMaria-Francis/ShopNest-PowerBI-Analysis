@@ -2,72 +2,85 @@
 
 ## Project Overview
 
-ShopNest is an e-commerce marketplace connecting small businesses across Portugal with customers through a centralized online platform.
+ShopNest is an e-commerce marketplace connecting small businesses across Portugal with customers through an online platform.
 
-This project focuses on analyzing e-commerce sales data using Power BI to understand sales performance, customer behavior, product performance, and business trends.
+This project uses Power BI to analyze sales, orders, customer payment preferences, product ratings, delivery performance, regional sales, and revenue trends.
 
-## Objective
+## Objectives
 
-The objective of the analysis was to transform raw e-commerce data into meaningful business insights through data preparation, data modelling, DAX calculations, and interactive Power BI visualizations.
+The analysis focuses on:
 
-## Tools & Technologies
+- Identifying top-performing product categories
+- Analyzing delayed and on-time deliveries
+- Comparing monthly delivery performance
+- Understanding customer payment preferences
+- Identifying highly and poorly rated products
+- Analyzing sales across states
+- Identifying quarterly sales patterns
+- Analyzing yearly revenue trends
+
+## Tools Used
 
 - Power BI
 - Power Query
 - DAX
 - Data Modelling
-- Excel / CSV Data
+- Data Visualization
 
-## Key Areas of Analysis
+## Key Analysis
 
-- Sales and revenue performance
-- Customer and order analysis
-- Product and category performance
-- Geographic analysis
-- Order trends over time
-- Key business performance indicators
+### 1. Product Category Sales
 
-## Data Preparation
+Analyzed the top 10 product categories based on total sales and identified concentration of sales across the leading categories.
 
-The project involved preparing and transforming the source datasets in Power Query before building the analytical model.
+### 2. Delivery Performance
 
-Key activities included:
+Analyzed delayed orders by product category and compared delayed versus on-time orders across months.
 
-- Reviewing and cleaning source data
-- Transforming columns and data types
-- Preparing tables for analysis
-- Creating relationships between tables
-- Building a structured data model
+The analysis identified higher concentrations of delayed orders in categories such as health & beauty and bed & bath/table.
 
-## Data Modelling
+### 3. Payment Method Analysis
 
-A relational data model was created in Power BI to connect the relevant customer, order, product, and transaction information.
+Analyzed the distribution of customer payment methods, with credit card being the most frequently used payment method in the analysis.
 
-A dedicated Date table was also created to support time-based analysis.
+### 4. Product Rating Analysis
 
-## Analysis & Visualization
+Compared the highest- and lowest-rated products based on customer review scores.
 
-DAX measures were created to support business analysis and KPI calculations.
+### 5. State-wise Sales Analysis
 
-Interactive Power BI visuals were then used to identify trends and compare performance across different dimensions such as:
+Analyzed regional sales performance and identified the states contributing the highest sales.
 
-- Time
-- Product
-- Category
-- Customer
-- Location
+### 6. Seasonal Sales Analysis
+
+Analyzed quarterly sales patterns across years using interactive filters.
+
+### 7. Revenue Analysis
+
+Analyzed yearly revenue trends to understand changes in overall revenue over time.
+
+## Interactive Features
+
+The Power BI report includes slicers and interactive analysis using dimensions such as:
+
+- Product Category
+- Order Status
+- Delivery Status
+- State
+- Review Score
 
 ## Key Skills Demonstrated
 
-- Data cleaning and transformation
-- Power Query
+- Data preparation
 - Data modelling
+- Power Query
 - DAX
-- KPI development
-- Business analysis
 - Data visualization
+- Business analysis
 - Power BI dashboard development
 
-## Project Outcome
+## Project Files
 
-The project demonstrates the ability to take raw e-commerce data, structure it for analysis, and develop an interactive Power BI solution to support business-focused decision making.
+The Power BI `.pbix` file is available upon request.
+
+Screenshots of selected dashboard pages are included in this repository to demonstrate the analysis and visualizations.
