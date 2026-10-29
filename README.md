@@ -91,10 +91,13 @@ Examines operational performance, delivery patterns, customer payment preference
 - Configured data fields and measures for consistent reporting.
 
 ### DAX & Business Calculations
-- Developed measures for revenue, sales, order counts, average order value and average product rating.
-- Used order delivery dates to classify orders as on-time or delayed.
-- Implemented product-rating ranking logic to identify the top 10 and bottom 10 products.
-- Used payment values to analyse revenue and payment-method distribution.
+
+- **Total Revenue:** Calculated as the sum of `payment_value` from the `Order_Payments` table, representing the total recorded payment value.
+- **Total Sales:** Calculated as the sum of `price` from the `Order_Items` table, representing the total product sales value excluding freight charges.
+- Developed measures for total orders, average order value and average product rating.
+- Used actual and expected delivery dates to analyse on-time and delayed orders.
+- Implemented ranking logic to identify the top 10 highest-rated and bottom 10 lowest-rated products.
+- Analysed payment values by payment method to understand payment distribution.
 
 ### Dashboard Design
 - Designed three complementary pages for executive reporting, delivery details and performance analysis.
