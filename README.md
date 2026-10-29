@@ -1,89 +1,116 @@
-# ShopNest Store Analysis – Power BI
+# ShopNest E-Commerce Sales & Operations Analysis | Power BI
 
 ## Project Overview
 
-ShopNest is an e-commerce marketplace connecting small businesses across Portugal with customers through an online platform.
+ShopNest is an e-commerce analytics project focused on understanding sales performance, revenue trends, customer payment preferences, product ratings, and order fulfilment.
 
-This project uses Power BI to analyze sales, orders, customer payment preferences, product ratings, delivery performance, regional sales, and revenue trends.
+This project uses **Power BI** to transform raw e-commerce data into interactive dashboards that support business analysis and data-driven decision-making.
 
-## Objectives
+## Business Objectives
 
-The analysis focuses on:
+- Analyse revenue and sales performance across years and states.
+- Identify the top-performing product categories.
+- Monitor on-time and delayed order fulfilment.
+- Evaluate monthly delivery trends and identify categories with higher delays.
+- Understand customer payment method preferences.
+- Identify the top 10 highest-rated and bottom 10 lowest-rated products.
+- Present key performance indicators through an executive dashboard.
 
-- Identifying top-performing product categories
-- Analyzing delayed and on-time deliveries
-- Comparing monthly delivery performance
-- Understanding customer payment preferences
-- Identifying highly and poorly rated products
-- Analyzing sales across states
-- Identifying quarterly sales patterns
-- Analyzing yearly revenue trends
+## Tools & Technologies
 
-## Tools Used
+- **Power BI:** Interactive dashboards, data modelling, visualisation and reporting.
+- **Power Query:** Data preparation, transformation and integration.
+- **DAX:** Measures, KPIs, product-rating analysis and business calculations.
+- **Data modelling:** Relationships between customers, orders, products, order items, payments, reviews and supporting tables.
 
-- Power BI
-- Power Query
-- DAX
-- Data Modelling
-- Data Visualization
+## Dashboard Pages
 
-## Key Analysis
+### 1. Executive Overview
 
-### 1. Product Category Sales
+Provides a consolidated view of ShopNest's overall sales and operational performance.
 
-Analyzed the top 10 product categories based on total sales and identified concentration of sales across the leading categories.
+![ShopNest Executive Overview](<Shopnest - Exicutive Overview.png>)
 
-### 2. Delivery Performance
+**Key metrics displayed:**
+- Total Revenue: 16.01M
+- Total Sales: 13.59M
+- Total Orders: 99,441
+- Average Order Value: 159.33
+- On-Time Orders: 88,649
+- Delayed Orders: 7,827
+- Average Product Rating: 4.09
 
-Analyzed delayed orders by product category and compared delayed versus on-time orders across months.
+**Key analyses:**
+- State-wise sales performance
+- Annual revenue trends
+- Top 10 product categories by sales
+- Interactive filtering by year and customer state
 
-The analysis identified higher concentrations of delayed orders in categories such as health & beauty and bed & bath/table.
+### 2. Delivery Details & Order Fulfilment
 
-### 3. Payment Method Analysis
+Focuses on order-level delivery information and fulfilment performance.
 
-Analyzed the distribution of customer payment methods, with credit card being the most frequently used payment method in the analysis.
+![ShopNest Delivery Details](<Shopnest - Delivery Details.png>)
 
-### 4. Product Rating Analysis
+**Key analyses:**
+- Order-level delivery status
+- Actual versus expected delivery dates
+- Total, on-time and delayed order counts
+- Identification of delayed orders for further investigation
 
-Compared the highest- and lowest-rated products based on customer review scores.
+### 3. Performance Analysis
 
-### 5. State-wise Sales Analysis
+Examines operational performance, delivery patterns, customer payment preferences and product ratings.
 
-Analyzed regional sales performance and identified the states contributing the highest sales.
+![ShopNest Performance Analysis](<Shopnest - Performace Analysis.png>)
 
-### 6. Seasonal Sales Analysis
+**Key analyses:**
+- Delayed orders by product category
+- Monthly comparison of delayed and on-time orders
+- Top 10 highest-rated products
+- Bottom 10 lowest-rated products
+- Distribution of payment methods
 
-Analyzed quarterly sales patterns across years using interactive filters.
+## Key Business Insights
 
-### 7. Revenue Analysis
+- **Revenue growth:** Annual revenue increased from approximately 7.2M in 2017 to 8.7M in 2018.
+- **Order fulfilment:** The dashboard records 88,649 on-time orders and 7,827 delayed orders, highlighting the importance of monitoring delivery performance.
+- **Category-level delays:** Bed, bath and table; health and beauty; and sports and leisure appear among the categories with the highest delayed-order counts.
+- **Product categories:** Health and beauty and watches and gifts are among the leading categories by sales.
+- **Payment preferences:** Credit cards account for the largest share of recorded payment value.
+- **Product ratings:** Separate top 10 and bottom 10 analyses help identify highly rated products and products that may need further investigation.
 
-Analyzed yearly revenue trends to understand changes in overall revenue over time.
+*Insights reflect the figures and rankings displayed in the dashboard and may change when filters are applied.*
 
-## Interactive Features
+## Technical Approach
 
-The Power BI report includes slicers and interactive analysis using dimensions such as:
+### Data Preparation & Modelling
+- Prepared and integrated the relevant e-commerce datasets.
+- Established relationships between the tables to support cross-functional analysis.
+- Created a date table to enable year-wise and month-wise analysis.
+- Configured data fields and measures for consistent reporting.
 
-- Product Category
-- Order Status
-- Delivery Status
-- State
-- Review Score
+### DAX & Business Calculations
+- Developed measures for revenue, sales, order counts, average order value and average product rating.
+- Used order delivery dates to classify orders as on-time or delayed.
+- Implemented product-rating ranking logic to identify the top 10 and bottom 10 products.
+- Used payment values to analyse revenue and payment-method distribution.
 
-## Key Skills Demonstrated
+### Dashboard Design
+- Designed three complementary pages for executive reporting, delivery details and performance analysis.
+- Added interactive slicers and visual-level filtering.
+- Used KPI cards, bar charts, column charts, a map visual, a donut chart and a detailed order table.
 
-- Data preparation
-- Data modelling
-- Power Query
-- DAX
-- Data visualization
-- Business analysis
-- Power BI dashboard development
+## Skills Demonstrated
 
-## Project Files
+Power BI | DAX | Power Query | Data Modelling | Data Cleaning | KPI Development | Business Intelligence | Data Visualisation | E-Commerce Analytics | Operational Analysis
 
-The Power BI `.pbix` file is available upon request.
+## Conclusion
 
-## Dashboard Preview
+The ShopNest project demonstrates how Power BI can be used to analyse e-commerce sales, revenue, product performance, customer payment preferences and delivery operations. The interactive dashboards bring key business metrics together and help identify trends and areas requiring further investigation.
 
-![ShopNest Power BI Dashboard](shopnest-dashboard.png)
-Screenshots of selected dashboard pages are included in this repository to demonstrate the analysis and visualizations.
+---
+
+**Project Type:** Data Analytics Capstone Project  
+**Domain:** E-Commerce | Sales & Operations Analytics  
+**Primary Tool:** Microsoft Power BI
